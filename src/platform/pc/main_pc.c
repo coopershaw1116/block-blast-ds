@@ -59,6 +59,10 @@ void Platform_FrameWait(void)
     SDL_Delay(16);
 }
 
+void Platform_EndFrame(void)
+{
+}
+
 SDL_Renderer* PC_GetRenderer(void)
 {
     return s_renderer;

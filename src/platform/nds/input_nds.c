@@ -48,27 +48,40 @@ void Input_Update(GameState* game)
 
     scanKeys();
 
-    int held = keysHeld();
     int down = keysDown();
+    int move = keysDownRepeat();
 
-    if ((held & KEY_LEFT) && game->cursorX > 0)
+    /* One step per tap; slow repeat when held (see keysSetRepeat in Platform_Init) */
+    if (move & KEY_LEFT)
     {
-        game->cursorX--;
+        if (game->cursorX > 0)
+        {
+            game->cursorX--;
+        }
     }
 
-    if ((held & KEY_RIGHT) && game->cursorX < GRID_SIZE - 1)
+    if (move & KEY_RIGHT)
     {
-        game->cursorX++;
+        if (game->cursorX < GRID_SIZE - 1)
+        {
+            game->cursorX++;
+        }
     }
 
-    if ((held & KEY_UP) && game->cursorY > 0)
+    if (move & KEY_UP)
     {
-        game->cursorY--;
+        if (game->cursorY > 0)
+        {
+            game->cursorY--;
+        }
     }
 
-    if ((held & KEY_DOWN) && game->cursorY < GRID_SIZE - 1)
+    if (move & KEY_DOWN)
     {
-        game->cursorY++;
+        if (game->cursorY < GRID_SIZE - 1)
+        {
+            game->cursorY++;
+        }
     }
 
     if (down & KEY_L)

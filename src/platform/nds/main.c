@@ -26,10 +26,10 @@ int main(int argc, char** argv)
 
     while (1)
     {
-        Platform_FrameWait();
         Input_Update(&game);
         Game_Update(&game);
         Render_Draw(&game);
+        Platform_EndFrame();
     }
 
     return 0;
