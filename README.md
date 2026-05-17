@@ -1,4 +1,4 @@
-# Block Blast! DS (Clearence!)
+# Block Blast! DS
 
 An accurate, comprehensive and fun DS port of the hit mobile game **Block Blast!** by **Hungry Studio** (includes DSi enhancements).
 
