@@ -166,11 +166,8 @@ BLOCK-BLAST-DS/
 | Technology | Usage |
 |------------|------|
 | C | Primary game code |
-| Header Files (`.h`) | Interfaces and definitions |
 | Make | Nintendo DS compilation |
-| CMake | Desktop build system |
 | SDL2 | PC testing build |
-| Python | Small amounts of advanced game logic tooling |
 
 ---
 
@@ -187,16 +184,16 @@ BLOCK-BLAST-DS/
 
 # Disclaimer
 
-Block Blast! DS is a fan-made recreation and is not affiliated with or endorsed by Hungry Studio.
+**Block Blast! DS is a fan-made recreation and is not affiliated with or endorsed by Hungry Studio.**
 
-All original trademarks and intellectual property belong to their respective owners.
+**All original trademarks and intellectual property belong to their respective owners.**
 
-All assets are faithful recreations of their original counterparts.
+**All assets are faithful recreations of their original counterparts.**
 
-Drafton (Me) does not endorse the game piracy, illegal game distribution or flashcarts.
+**Drafton (Me) does not endorse the game piracy, illegal game distribution or flashcarts.**
 
-Software is released "as is" with no guarrenty or warrenty. All forks must remain under the license "GPL 3.0" to remain legally compliant of the rules of the license.
+**Software is released "as is" with no guarrenty or warrenty. All forks must remain under the license "GPL 3.0" to remain legally compliant of the rules of the license.**
 
 ---
 
-**_Made with Love by Drafton_**
+**_Made with ❤️ by Drafton_**
