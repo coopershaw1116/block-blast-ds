@@ -126,7 +126,7 @@ make -f Makefile.pc
 cmake -B build-pc -S .
 cmake --build build-pc
 
-./build-pc/BLOCK-BLAST-DS-PC
+./build-pc/BLOCK-BLAST-DS
 ```
 
 ---
