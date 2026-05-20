@@ -31,14 +31,6 @@ make -f Makefile.pc
 ./build-pc/BLOCK-BLAST-DS
 ```
 
-Or with CMake:
-
-```bash
-cmake -B build-pc -S .
-cmake --build build-pc
-./build-pc/BLOCK-BLAST-DS-PC
-```
-
 ### Controls (PC)
 
 | Key | Action |
